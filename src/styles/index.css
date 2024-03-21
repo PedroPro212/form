@@ -1,0 +1,14 @@
+main{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+main .dados {
+    background-color: #ebe7e0;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border: solid 1px black;
+}
+h4{
+    padding-bottom: 1rem;
+}
