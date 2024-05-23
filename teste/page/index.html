@@ -20,7 +20,7 @@
             <div class="col-sm-12">
                 <div class="container">
                     <div class="row dados">
-                        <h4 class="h4-Dados">Dados Pessoais</h4>
+                        <h4>Dados Pessoais</h4>
                         <div class="col-sm-3">
                             <label for="txtDPessoais">Dados Pessoais:</label><br>
                             <label for="txtNascimento">Nascimento:</label><br>
@@ -28,16 +28,16 @@
                             <label for="txtCPF">CPF:</label><br>
                         </div>
                         <div class="col-sm-3">
-                            <input type="text" id="txtDPessoais" name="txtDPessoais" required>
-                            <input type="date" id="txtNascimento" name="txtNascimento" style="display: block;" required>
-                            <input type="text" id="txtRG" name="txtRG" required>
-                            <input type="number" id="txtCPF" name="txtCPF" required>
+                            <input type="text" id="txtDPessoais">
+                            <input type="date" id="txtNascimento" style="display: block;">
+                            <input type="text" id="txtRG">
+                            <input type="number" id="txtCPF">
                         </div>
                         <div class="col-sm-3">
                             <label for="txtEmail">Email:</label>
                         </div>
                         <div class="col-sm-3">
-                            <input type="email" id="txtEmail" name="txtEmail" required>
+                            <input type="email" id="txtEmail">
                         </div>
                     </div>
                 </div>
@@ -45,7 +45,7 @@
             <div class="col-sm-12">
                 <div class="container">
                     <div class="row dados">
-                        <h4 class="h4-Endereco">Endereço</h4>
+                        <h4>Endereço</h4>
                         <div class="col-sm-3">
                             <label for="txtRua">Rua:</label><br>
                             <label for="txtBairro">Bairro:</label><br>
@@ -54,8 +54,8 @@
                             <label for="txtCep">Cep:</label><br>
                         </div>
                         <div class="col-sm-3">
-                            <input type="text" id="txtRua" name="txtRua" required>
-                            <input type="text" id="txtBairro" name="txtBairro" required>
+                            <input type="text" id="txtRua">
+                            <input type="text" id="txtBairro">
                             <select  id="txtEstado">
                                 <option value="AC">Acre</option>
                                 <option value="AL">Alagoas</option>
@@ -85,8 +85,8 @@
                                 <option value="SE">Sergipe</option>
                                 <option value="TO">Tocantins</option>
                             </select>
-                            <input type="text" id="txtCidade" required>
-                            <input type="text" id="txtCep" placeholder="00000-000" pattern="\d{5}\-\d{3}" required>
+                            <input type="text" id="txtCidade">
+                            <input type="text" id="txtCep" placeholder="00000-000" pattern="\d{5}\-\d{3}">
                         </div>
                         <div class="col-sm-3"></div>
                         <div class="col-sm-3"></div>
@@ -98,7 +98,7 @@
             <div class="col-sm-12">
                 <div class="container">
                     <div class="row dados">
-                        <h4 class="h4-Login">Login</h4>
+                        <h4>Login</h4>
                         <div class="col-sm-3">  
                             <label for="txtImagem">Imagem de perfil:</label><br>
                             <label for="txtLogin">Login de usuário:</label><br>
@@ -106,8 +106,8 @@
                             <label for="txtSenha2">Confirmar senha:</label><br>
                         </div>
                         <div class="col-sm-3">
-                            <input type="file" accept="image/*" id="txtImagem" required>
-                            <input type="text" id="txtLogin" required>
+                            <input type="file" accept="image/*" id="txtImagem">
+                            <input type="text" id="txtLogin">
                             <input type="password" id="txtSenha1" required>
                             <input type="password" name="" id="txtSenha2" required>
                         </div>
@@ -116,17 +116,13 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-12">
-                <input type="submit" value="Enviar Dados" onclick="ValidarSenha()">
-                <button>Limpar</button>
-            </div>
         </form>
+        <div class="col-sm-12">
+            <input type="submit" value="Enviar Dados" onclick="ValidarSenha()">
+            <button>Limpar</button>
+        </div>
         
     </main>
-
-    <footer>
-        <p><a href="">Termo de Uso</a> | <a href="https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm">LGPD</a></p>
-    </footer>
 
     <img src="../imgs/IBGE_mascote-homem.png" alt="">
 
