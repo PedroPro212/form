@@ -12,3 +12,16 @@ main .dados {
 h4{
     padding-bottom: 1rem;
 }
+select{
+    margin-bottom: 0.5rem;
+}
+
+input{
+    margin-bottom: 0.5rem;
+}
+
+img{
+    position:fixed;
+    right: 0;
+    top: 52rem;
+}
